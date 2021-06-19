@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,200&display=swap");
+
+body {
+  background-color: #ffe4c6;
+}
+
+table {
+  font-family: "Roboto Mono", monospace;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 35%;
+  left: 35%;
+  margin-top: -50px;
+  margin-left: -130px;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td,
+th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffe4c6;
+}
+#footer {
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  opacity: 40%;
+  width: 100%;
+  text-align: center;
+}
